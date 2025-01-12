@@ -20,6 +20,12 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position:absolute;
+    top: 0px;
+}
+
+main {
+    margin-top: 140px;
 }
 
 nav a:visited,
@@ -56,7 +62,7 @@ nav a:link {
 }
 
 .contenido {
-    margin: 80px auto;
+    margin: 0 auto;
     max-width: 800px;
     display: flex;
     flex-direction: column;
