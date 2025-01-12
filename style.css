@@ -20,7 +20,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    position:absolute;
+    position: fixed;
     top: 0px;
 }
 
@@ -57,7 +57,7 @@ nav a:link {
     margin: 20px;
     list-style: none;
     display: inline;
-    font-size: 22px;
+    font-size: 18px;
     /* color: #f2e9e9; */
 }
 
