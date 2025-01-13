@@ -25,7 +25,7 @@ nav {
 }
 
 main {
-    margin-top: 140px;
+    margin-top: 80px;
 }
 
 nav a:visited,
@@ -36,7 +36,11 @@ nav a:link {
     text-decoration: none;
 }
 
-.title {
+nav input {
+    display: none;
+}
+
+nav .title {
     font-size: 42px;
     font-family: 'Times New Roman', Times, serif;
     padding: 10px 20px;
@@ -49,7 +53,8 @@ nav a:link {
 }
 
 .menu {
-    padding: 26px 26px;
+    /* padding: 26px 26px; */
+    padding-right: 14px;
     text-align: end;
 }
 
@@ -84,7 +89,7 @@ nav a:link {
 }
 
 .contenido p {
-    margin: 30px;
+    margin: 20px;
     text-align: justify;
 }
 
@@ -98,6 +103,7 @@ nav a:link {
 
 .informacion img {
     border-radius: 10px;
+    margin: 20px;
 }
 
 .contacto {
@@ -116,3 +122,106 @@ nav a:link {
     text-align: center;
 }
 
+/* Diseño responsivo */
+@media (max-width: 620px) {
+    main {
+        margin-top: 70px;
+    }
+    
+    nav .title {
+        font-size: 32px;
+        font-family: 'Times New Roman', Times, serif;
+        padding: 10px 20px;
+    }
+    
+    /* menu hamburgguesa */
+    body nav .menu {
+        padding: 0;
+        display: none;
+    }
+
+    body nav input:checked ~ ul {
+        display: block;
+    }
+
+    body nav input {
+        display: none;
+    }
+
+    nav label {
+        color: white;
+        margin: 20px;
+        /* padding: 5px; */
+        box-sizing: border-box;
+        display: inline-block;
+        /* border: 2px solid white; */
+        font-size: 26px;
+        /* width: 30px; */
+        /* height: 30px; */
+        line-height: 30px;
+        text-align: center;
+        user-select: none;
+    }
+
+    body nav ul {
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        /* height: 200px; */
+        width: 140px;
+        top: 40px;
+        right: 0;
+        /* background-color: #2a3b3bd1; */
+        padding: 0px;
+    }
+
+    nav .menu {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .menu li {
+        display: block;
+        margin: 0px 0;
+        padding: 10px;
+        padding-left: 20px;
+        position: relative;
+        top: 20px;
+        font-size: 26px;
+        text-align: start;
+        color: white;
+    }
+
+    nav li {
+        display: block;
+        background: #2a3b3bd1;
+        margin: 0px 0;
+        padding: 10px;
+        border-bottom: 1px solid grey;
+        list-style: none;
+    }
+    /* Termina menu hamburguesa */
+
+    .contenido h1 {
+        line-height: 1;
+        margin: 15px 10px;
+    }
+    
+    .contenido h2 {
+        margin: 5px 10px;
+        margin-bottom: 0;
+    }
+    
+    .contenido p {
+        margin-top: 10px;
+    }
+    
+    .informacion {
+        flex-direction: column;
+    }
+
+    .informacion img {
+        margin-bottom: 0;
+    }
+}

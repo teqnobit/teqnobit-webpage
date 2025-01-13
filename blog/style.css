@@ -5,14 +5,16 @@
 
 .seccion-entradas > h1 {
     text-align: center;
-    margin: 40px;
+    margin: 25px;
+    margin-top: 80px;
 }
 
 .entrada-blog {
     padding: 0 30px 30px 30px;
-    border: 2px solid black;
+    border: 2px solid rgb(111, 115, 111);
     border-radius: 10px;
-    box-shadow: 0px 0px 5px 5px black;
+    box-shadow: 0px 0px 5px 5px rgb(128, 126, 126);
+    margin: 5px;
     margin-bottom: 50px;
     background-color: #effbec;
 }
