@@ -11,12 +11,12 @@
 
 .entrada-blog {
     padding: 0 30px 30px 30px;
-    border: 2px solid rgb(111, 115, 111);
+    border: 2px solid rgba(255, 255, 255, 0);
     border-radius: 10px;
-    box-shadow: 0px 0px 5px 5px rgb(128, 126, 126);
+    box-shadow: 0px 0px 3px 3px rgb(190, 191, 194);
     margin: 5px;
     margin-bottom: 50px;
-    background-color: #e4ece6;
+    background-color: #f3f6f5;
 }
 
 .entrada-blog-contenedor {
@@ -41,6 +41,10 @@
 .entrada-blog .autor {
     position: relative;
     top: 20px; left: -20px;
+}
+
+.entrada-blog .autor p {
+    font-weight: bold;
 }
 
 .entrada-blog img {
