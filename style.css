@@ -25,7 +25,11 @@ nav {
 }
 
 main {
+    margin: 0 auto;
     margin-top: 80px;
+    max-width: 800px;
+    min-width: 440px;
+
 }
 
 nav a:visited,
@@ -68,7 +72,6 @@ nav .title {
 
 .contenido {
     margin: 0 auto;
-    max-width: 800px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -78,6 +81,7 @@ nav .title {
 .contenido h1 {
     font-size: 56px;
     text-align: center;
+    margin-top: 50px;
     margin-bottom: 15px;
 }
 

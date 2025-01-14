@@ -1,22 +1,24 @@
-.seccion-entradas {
+/* .seccion-entradas {
     margin: 0 auto;
     max-width: 800px;
-}
+} */
 
 .seccion-entradas > h1 {
     text-align: center;
     margin: 25px;
     margin-top: 80px;
+    color: #272727;
+    /* font-weight: bold; */
 }
 
 .entrada-blog {
-    padding: 0 30px 30px 30px;
+    padding: 0 28px 30px 28px;
     border: 2px solid rgba(255, 255, 255, 0);
     border-radius: 10px;
     box-shadow: 0px 0px 3px 3px rgb(190, 191, 194);
-    margin: 5px;
+    margin: 7px;
     margin-bottom: 50px;
-    background-color: #f3f6f5;
+    background-color: #f3f6f6;
 }
 
 .entrada-blog-contenedor {
@@ -31,6 +33,7 @@
     margin: 10px;
     margin-top: 25px;
     text-align: center;
+    color: #474bd1;
 }
 
 .entrada-blog .encabezado {
@@ -40,11 +43,12 @@
 
 .entrada-blog .autor {
     position: relative;
-    top: 20px; left: -20px;
+    top: 22px; left: -18px;
 }
 
 .entrada-blog .autor p {
     font-weight: bold;
+    color: #272727;
 }
 
 .entrada-blog img {
